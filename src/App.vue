@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import Vheader from './components/header/header'
+import Vheader from 'components/header/header'
 export default {
   data () {
     return {
@@ -36,7 +36,7 @@ export default {
 }
 </script>
 
-<style>
+<style  >
   .tab {
     display: flex;
     width: 100%;
