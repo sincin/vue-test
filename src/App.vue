@@ -3,13 +3,13 @@
     <Vheader :seller="seller"></Vheader>
     <div class="tab border-1px">
       <div class="tab-item">
-        <a @click="$router.push('/goods')">商品</a>
+        <a @click="$router.push('/goods')">商品11</a>
       </div>
       <div class="tab-item">
-        <a @click="$router.push('/ratings')">评论</a>
+        <a @click="$router.push('/ratings')">评论22</a>
       </div>
       <div class="tab-item">
-        <a @click="$router.push('/seller')">商家</a>
+        <a @click="$router.push('/seller')">商家33</a>
       </div>
     </div>
     <router-view  :seller="seller" keep-alive></router-view>
